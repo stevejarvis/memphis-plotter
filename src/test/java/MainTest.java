@@ -9,9 +9,9 @@ public class MainTest {
     }
 
     @Test
-    public void testFail() {
-        System.out.println("Here running tests");
-        assertFalse(false);
+    public void testPass() {
+        System.out.println("Here passing things");
+        assertTrue(true);
     }
 
 }
